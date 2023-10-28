@@ -1,5 +1,5 @@
 run: build
-	java Main
+	java -Xms4G -Xmx6G Main
 
 build:
 	javac Main.java
